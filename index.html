@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<main>
+    <div class="slider">
+        <nav class="wrapper">
+            <div class="navigation">
+                <div class="navigation-content">
+                    <div class="logo">
+                        <a href="#">business<span>reviews</span></a>
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="open">
+                            <i aria-hidden="true" class="fa fa-bars mobile-icon"></i>
+                        </div>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Compare</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <div class="slide__item">
+                <img src="img/slide1.png"  class="slideImg" alt="slide1"/>
+                <div class="wrapper">
+                    <div class="slide-content">
+                        <div>
+                            <h1>Reviews</h1>
+                            <h1>Ratings</h1>
+                            <h1>Comparisons</h1>
+                            <p>Unbiased reviews that save you time and money</p>
+                        </div>
+
+                        <div class="slide-search">
+                            <form>
+                                <input type="text" placeholder="Search for a company" name="Search" class="footer-input"/>
+                                <input type="submit" value="Search" name="button" class="footer-submit"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide__item ">
+                <img src="img/soldier.png" class="slideImg" alt="slide2"/>
+            </div>
+
+            <div class="slide__item">
+                <img src="img/mountain.png" class="slideImg" alt="slide3"/>
+            </div>
+
+        </div>
+        <nav class="slide-left-right">
+            <a href="#" class="slide-left" onclick="plusIndex(-1, 1, 'slideImg')"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#" class="slide-right" onclick="plusIndex(1, 1, 'slideImg')"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </nav>
+    </div>
+
+    <section class="container">
+        <div class="wrapper">
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/bank.png" alt="bank"/>
+                    </div>
+                    <p>Best Merchant<br/>Account Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/smart1.png" alt="smartphone"/>
+                    </div>
+                    <p>Best Mobile<br/>Payments Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/smart2.png" alt="smart"/>
+                    </div>
+                    <p>Best POS<br/>Software Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/restaurant.png" alt="restaurant"/>
+                    </div>
+                    <p>Best Restaurant POS<br/>Software Reviews</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/online-store%20(1).png" alt="online-store"/>
+                    </div>
+                    <p>Best Shopping Cart<br/>Software Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/calculating.png" alt="calculating"/>
+                    </div>
+                    <p>Best Accounting<br/>Software Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/business.png" alt="business"/>
+                    </div>
+                    <p>Best Small Business<br/>Loan Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/credit-card%20(1).png" alt="credit-card"/>
+                    </div>
+                    <p>Best Business Line of<br/>Credit Reviews</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/money.png" alt="money"/>
+                    </div>
+                    <p>Best Merchant Cash<br/>Advance Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/editor.png" alt="editor"/>
+                    </div>
+                    <p>Best Website<br/>Builder Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/check-mark.png" alt="check-mark"/>
+                    </div>
+                    <p>Best Inventory<br/>Software Reviews</p>
+                </div>
+                <div class="grid-item">
+                    <div class="img">
+                        <img src="img/invoice.png" alt="invoice"/>
+                    </div>
+                    <p>Best Invoicing<br/>Software Reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper divide-line"></section>
+
+    <section class="container">
+        <div class="wrapper">
+            <header class="news-header">
+                <h1>Latest news</h1>
+            </header>
+
+            <div class="news-grid">
+                <figure>
+                    <img src="img/mountain.png" alt="mountain"/>
+                    <div class="news-grid__content">
+                        <h1>The Complete Guide to Credit Card Processing Rates & Fees</h1>
+                        <h6>Credit card processing fees are extensive, complicated, and somewhat overwhelming. Nevertheless, you have to pay them...</h6>
+                        <footer>
+                            <p>load more</p>
+                        </footer>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="img/soldier.png" alt="soldier"/>
+                    <div class="news-grid__content">
+                        <h1>The Complete Guide to Credit Card Processing Rates & Fees</h1>
+                        <h6>Credit card processing fees are extensive, complicated, and somewhat overwhelming. Nevertheless, you have to pay them...</h6>
+                        <footer>
+                            <p>load more</p>
+                        </footer>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider-bg">
+        <div class="wrapper">
+            <header class="slider-header">
+                <h1>Our partners</h1>
+            </header>
+            <div class="carousel">
+                <ul>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/ENT-logo.png" alt="ENT-logo"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/The_New_York_Times_logo.png" alt="New_York_Times"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/comparecards-logo-1.1-w.png" alt="comparecards"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/MSN-logo-2014-blue.png" alt="MSN-logo"/>
+                        </a>
+                    </li>
+
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/ENT-logo.png" alt="ENT-logo"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/The_New_York_Times_logo.png" alt="New_York_Times"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/comparecards-logo-1.1-w.png" alt="comparecards"/>
+                        </a>
+                    </li>
+                    <li class="small-slide">
+                        <a href="#">
+                            <img src="img/MSN-logo-2014-blue.png" alt="MSN-logo"/>
+                        </a>
+                    </li>
+                </ul>
+                <nav class="carousel-left-right">
+                    <div onclick="plusIndex(-1, 4, 'small-slide')" class="left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                    <div onclick="plusIndex(1, 4, 'small-slide')" class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="wrapper">
+            <header class="blog-header">
+                <h1>Blog posts</h1>
+            </header>
+
+            <div class="blog-grid">
+                <figure>
+                    <img src="img/credit1.png" alt="credit"/>
+                    <div class="blog-grid__content">
+                        <i class="fa fa-calendar" aria-hidden="true">&nbsp;&nbsp;&nbsp;21 January 2016</i>
+                        <h1>The Complete Guide to Credit Card Processing Rates & Fees</h1>
+                        <h6>Credit card processing fees are extensive, complicated, and somewhat overwhelming. Nevertheless, you have to pay them if you want to process credit cards through your business. Rather than paying  these charges blindly, you might as well make an...</h6>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="img/credit2.png" alt="credit"/>
+                    <div class="blog-grid__content">
+                        <i class="fa fa-calendar" aria-hidden="true">&nbsp;&nbsp;&nbsp;21 January 2016</i>
+                        <h1>The Complete Guide to Credit Card Processing Rates & Fees</h1>
+                        <h6>Credit card processing fees are extensive, complicated, and somewhat overwhelming. Nevertheless, you have to pay them if you want to process credit cards through your business. Rather than paying  these charges blindly, you might as well make an...</h6>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="img/credit3.png" alt="credit"/>
+                    <div class="blog-grid__content">
+                        <i class="fa fa-calendar" aria-hidden="true">&nbsp;&nbsp;&nbsp;21 January 2016</i>
+                        <h1>The Complete Guide to Credit Card Processing Rates & Fees</h1>
+                        <h6>Credit card processing fees are extensive, complicated, and somewhat overwhelming. Nevertheless, you have to pay them if you want to process credit cards through your business. Rather than paying  these charges blindly, you might as well make an...</h6>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="load-button">
+                <input type="submit" value="load more" name="button"/>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.889271114417!2d44.52471631580763!3d40.211525979389556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd4af2ddf001%3A0xf8fc470629934a49!2sSTDev!5e0!3m2!1sen!2s!4v1494499932221" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="map-color">
+                <div class="wrapper">
+                    <div class="form-grid">
+                        <form class="form">
+                            <div>
+                                <input type="text" placeholder="Name" name="Name"/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="Email" name="Email"/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="Subject" name="Subject"/>
+                            </div>
+
+                            <div>
+                                <textarea placeholder="Message" name="Message" rows="6"></textarea>
+                            </div>
+
+                            <div class="form-button">
+                                <input type="submit" value="load more" name="button"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer-top-bg">
+    <div class="wrapper">
+        <div class="footer-top-grid">
+            <div class="footer-top-item">
+                <h1>About us</h1>
+                <p><img src="img/bank1.png" alt="bank"/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+            </div>
+
+            <div class="footer-top-item">
+                <h1>Latest tweets</h1>
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                            <a href="#">@Loremipsum</a> is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                            <a href="#">@Loremipsum</a> is simply dummy text of the printing industry.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="footer-top-item">
+                <h1>Newsletter signup</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has.</p>
+                <form>
+                    <input type="text" placeholder="Email address" name="Email" class="footer-input"/>
+                    <input type="submit" value="Submit" name="button" class="footer-submit"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer class="footer-bottom-bg">
+    <div class="wrapper">
+        <div class="footer-bottom-grid">
+
+            <div class="footer-bottom-item support__terms_-privacy">
+                <p><a href="#">Support</a> / <a href="#">Terms</a> / <a href="#">Privacy</a></p>
+            </div>
+
+            <div class="footer-bottom-item footer-logo">
+                <a href="#">business<span>reviews</span></a>
+            </div>
+
+            <div class="footer-bottom-item footer-social">
+                <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-wifi" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/script.js"></script>
+</body>
+</html>
